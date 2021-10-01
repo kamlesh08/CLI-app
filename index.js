@@ -55,16 +55,13 @@ var highScore = [ {
 }, {
   name: "ashish",
   scores: 3,
-}, {
-  name: "astha",
-  scores: 2,
 }]
 
 console.log ("Some high scores of the game are: ");
 
 for (var i = 0; i < highScore.length; i++) {
   var allScores = highScore[i];
-  console.log (allScores);
+  console.log (allScores.name, " : ", allScores.scores);
 }
 
 console.log ("-------------");
